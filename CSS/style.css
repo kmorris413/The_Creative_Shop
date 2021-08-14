@@ -1,0 +1,100 @@
+/*Home Page*/
+.heroImage1 {
+    height: 325px;
+    background-image: url(../images/Hero1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroImage2 {
+    height: 325px;
+    background-image: url(../images/Thread.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroText {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-bottom: 100px;
+}
+.checkClasses {
+    margin-left: 75px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.carousel-inner {
+    height: 450px;
+}
+
+/*Sewing-How to get started*/
+.getStarted {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 100px;
+}
+.supplies {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 25px;
+}
+.getStartedText {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 25px;
+}
+.cardContainer {
+    padding-top: 25px;
+}
+/*Classes & Tutorials*/
+.classesTitle {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 100px;
+}
+.classesText {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.classesButton {
+    margin-left: 385px;
+    margin-right: 75px;
+}
+
+/*New Skills*/
+.newSkillsPic {
+    display: block;
+    margin-left: 175px;
+    padding-top: 100px;
+}
+.newSkillsGrid {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+        "newSkillsText" "newSkillsPic"
+        
+        ;
+}
+.newSkillsTitle {
+    padding-top: 100px;
+    padding-bottom: 25px; 
+}
+.newSkillsText {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+/*Form Group*/
+.emailForm {
+    padding-top: 100px;
+    margin-left: 75px;
+    padding-bottom: 100px;
+}
+
+    
