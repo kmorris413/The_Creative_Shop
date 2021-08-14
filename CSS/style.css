@@ -1,7 +1,7 @@
 /*Home Page*/
 .heroImage1 {
     height: 325px;
-    background-image: url(../images/Hero1.jpg);
+    background-image: url(../images/painting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
