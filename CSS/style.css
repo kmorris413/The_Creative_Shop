@@ -1,16 +1,7 @@
 /*Home Page*/
 .heroImage1 {
     height: 325px;
-    background-image: url(../images/Hero1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.heroImage2 {
-    height: 325px;
-    background-image: url(../images/Thread.jpg);
+    background-image: url(../images/Hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -29,6 +20,17 @@
 }
 .carousel-inner {
     height: 450px;
+}
+
+/*Sewing page*/
+.heroImage2 {
+    height: 325px;
+    background-image: url(../images/Thread.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Sewing-How to get started*/
@@ -62,9 +64,15 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.classesButton {
+/*.classesButton {
     margin-left: 385px;
     margin-right: 75px;
+}*/
+.classesButton {
+    margin: auto;
+}
+.tutorialsButton {
+    margin: auto;
 }
 
 /*New Skills*/
@@ -96,5 +104,58 @@
     margin-left: 75px;
     padding-bottom: 100px;
 }
+/*Tips & Tricks*/
+
+  .sectionHeading {
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 75px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .col-8 {
+    padding-top: 80px;
+  }
+  /*Related Hobbies*/
+  .relatedHobbies {
+      padding-top: 100px;
+  }
+  .relatedHobbiesText {
+      padding-top: 25px;
+  }
+  .cardContainerHobbies {
+      padding-top: 25px;
+      padding-bottom: 100px;
+  }
+
+  /*Scrapbook Page*/
+  .heroImage3 {
+    height: 325px;
+    background-image: url(../images/scrapbook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hobbiesMonthTitle {
+      margin-left: 75px;
+
+  }
 
     
